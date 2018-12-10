@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*Desarrollado por: Diana Fajardo 6K*/
+/* ***************Estilos generales*********** */
+body{
+    background-color: #C6E0EC;
+    font-family: sans-serif;
+
+}
+h1{
+    text-decoration: underline;
+    font-size:300%;
+    text-align: center;
+    text-transform:uppercase;
+    
+}
+h2{
+    background-color: #4099BF;
+    font-size:200%;
+}
+blockquote{
+    font-style: oblique;
+}
+h3{
+    background-color: #79B8D2;
+    color:#FFFFFF;
+    font-size:150%;
+}
+pre{
+    background-color:#FFFFFF;
+    font-family: monospace;
+    font-size: 120%;
+    font-weight:bold; 
+    margin:1% 0;
+}
+p{
+    text-align: justify;
+}
+/* ********************Clases************************ */
+.textoDerecha{
+    font-family: serif;
+    text-align:right;
+    font-style:normal;
+}
+.anclado{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    border-top: 2px solid black;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin:0;
+    padding: 0.25% 0 0.25%;
+    left:0;
+}
